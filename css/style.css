@@ -1,0 +1,42 @@
+body{
+    height: 100%;
+    background: lightgray;
+    margin:0;
+    padding:0;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+    display: flex;
+    align-content: center;
+}
+
+.item {
+	flex: 1;
+	margin: 5px;
+	padding: 0 10px;
+	text-align: center;
+    font-size: 1.3em;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: solid;
+}
+
+.alinhamento-central {
+	height: 900px;
+	justify-content: center;
+    align-items: center;
+    flex: 0;
+	padding: 10px;
+}
+
+.item button{
+    margin: 10px;
+}
+
+.alinhamento-central .item {
+	flex: 0;
+	padding: 50px;
+}
+
